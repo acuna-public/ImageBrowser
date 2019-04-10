@@ -1,5 +1,5 @@
-# ImageBrowser
-ImageBrowser is images browser and picker for Android<br>
+## ImageBrowser
+ImageBrowser is an images browser and picker for Android<br>
 <br>
 **Usage**
 
