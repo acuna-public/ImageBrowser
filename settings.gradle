@@ -1,10 +1,1 @@
-  include ':imagebrowser', ':jtar', ':json', ':jabadaba', ':archiver', ':storage', ':filedialog', ':andromeda', ':androdesign'
-
-  project (':jtar').projectDir = new File ('C:\\Projects\\AndroidStudio\\[Side]\\jTar\\jtar')
-  project (':json').projectDir = new File ('C:\\Projects\\AndroidStudio\\[Side]\\JSON\\json')
-  project (':jabadaba').projectDir = new File ('C:\\Projects\\AndroidStudio\\JabaDaba\\jabadaba')
-  project (':archiver').projectDir = new File ('C:\\Projects\\AndroidStudio\\Archiver\\archiver')
-  project (':storage').projectDir = new File ('C:\\Projects\\AndroidStudio\\Storage\\storage')
-  project (':filedialog').projectDir = new File ('C:\\Projects\\AndroidStudio\\FileDialog\\filedialog')
-  project (':andromeda').projectDir = new File ('C:\\Projects\\AndroidStudio\\Andromeda\\andromeda')
-  project (':androdesign').projectDir = new File ('C:\\Projects\\AndroidStudio\\AndroDesign\\androdesign')
+  include ':imagebrowser'

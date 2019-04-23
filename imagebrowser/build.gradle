@@ -2,7 +2,7 @@
   
   android {
     
-    compileSdkVersion 26
+    compileSdkVersion 28
     
     defaultConfig {
       
@@ -20,7 +20,7 @@
     
     implementation fileTree (include: ['*.jar'], dir: 'libs')
     
-    api project (':androdesign')
-    api project (':filedialog')
-    
+		api 'pro.acuna:androdesign:+'
+		api 'pro.acuna:filedialog:+'
+  
   }
