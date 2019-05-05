@@ -6,7 +6,7 @@
     
     defaultConfig {
       
-      minSdkVersion 12
+      minSdkVersion 14
       versionName project.property ('libraryVersion')
       
     }
