@@ -1,6 +1,6 @@
 ## ImageBrowser
 ImageBrowser is an images browser and picker for Android<br>
-![screenshot](https://github.com/acuna-public/ImageBrowser/Screenshot_20200113-010449[1].png?raw=true)
+![screenshot](https://github.com/acuna-public/ImageBrowser/blop/master/screenshot[1].png?raw=true)
 <br>
 **Usage**
 
