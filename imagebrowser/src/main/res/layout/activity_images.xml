@@ -1,30 +1,31 @@
 <android.support.design.widget.CoordinatorLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:fitsSystemWindows="true"
 	>
+  
+  <include layout="@layout/toolbar"/>
 	
-	<include layout="@layout/toolbar" />
-	
-	<LinearLayout
+  <FrameLayout
+		android:id="@+id/fragment"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:paddingTop="1dp"
 		app:layout_behavior="@string/appbar_scrolling_view_behavior"
-		android:orientation="vertical"
-		>
-		
-		<pro.acuna.androdesign.widget.RecyclerView
-			android:id="@+id/grid_view"
-			android:layout_width="fill_parent"
-			android:layout_height="fill_parent"
-			android:gravity="center"
-			android:numColumns="auto_fit"
-			android:stretchMode="columnWidth"
-			/>
+		/>
 	
-	</LinearLayout>
-
+  <com.github.clans.fab.FloatingActionButton
+		android:id="@+id/fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="end|bottom|center"
+		android:layout_margin="@dimen/fab_margin"
+		android:src="@drawable/ic_done_white_24dp"
+		android:tint="?colorFabTint"
+		android:visibility="gone"
+		fab:fab_colorNormal="?colorFab"
+		fab:fab_colorPressed="?colorFabPressed"
+		/>
+  
 </android.support.design.widget.CoordinatorLayout>

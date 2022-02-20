@@ -2,25 +2,29 @@
   
   android {
     
-    compileSdkVersion 28
+    compileSdkVersion 29
     
     defaultConfig {
       
-      minSdkVersion 14
+      minSdkVersion 12
       versionName project.property ('libraryVersion')
       
     }
     
   }
   
-  apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/bintray.gradle'
-  apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/publish.gradle'
+  //apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/bintray.gradle'
+  //apply from: 'https://raw.githubusercontent.com/acuna-public/MavenUpload/master/publish.gradle'
   
   dependencies {
     
     implementation fileTree (include: ['*.jar'], dir: 'libs')
     
-		api 'pro.acuna:androdesign:+'
-		api 'pro.acuna:filedialog:+'
-  
-  }
+    api 'com.github.clans:fab:1.6.4'
+		
+		//api 'ru.ointeractive:androdesign:+'
+		api project (':wrapper')
+		//api 'ru.ointeractive:filedialog:+'
+    api project (':filedialog')
+		
+	}

@@ -1,2 +1,15 @@
-<manifest package="pro.acuna.imagebrowser">
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="ru.ointeractive.imagebrowser"
+  >
+  
+  <application
+    android:theme="@style/Light"
+    >
+    
+    <activity android:name=".ImagesActivity">
+    </activity>
+    
+  </application>
+  
 </manifest>
